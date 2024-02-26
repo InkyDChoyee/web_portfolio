@@ -1,0 +1,98 @@
+.skills_box {
+    background-color: #EFFAFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 60%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.skills {
+    padding: 25px;
+}
+
+.skills_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_title p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.skills_title img {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+.skills_switching_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills_switching_about button {
+    border: none;
+    background-color: #EFFAFF;
+}
+
+.skills_switching_about button:hover {
+    cursor: pointer;
+}
+
+.skills_switching_about img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.skills_switching_about p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.front_end_part,
+.back_end_part,
+.tool_part,
+.db_server_part {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.db_server_part {
+    display: flex;
+}
+
+.server_part {
+    margin-left: 175px;
+}
+
+.front_end_part p,
+.back_end_part p,
+.tool_part p,
+.db_server_part p {
+    margin: 0;
+}
+
+.front_end_part img,
+.back_end_part img,
+.tool_part img,
+.db_server_part img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}

@@ -1,0 +1,28 @@
+.info_header {
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+    align-items: center;
+    border-bottom: 3px solid #effaff;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.portfolio_title p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #024486;
+}
+
+.switching_btn_box button{
+    border: none;
+    background-color: #fff;
+    margin-left: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #024486;
+}
+
+.switching_btn_box button:hover {
+    cursor: pointer;
+}

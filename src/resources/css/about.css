@@ -1,0 +1,113 @@
+.about_me_box {
+    background-color: #EFFAFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 25%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.about_me {
+    padding: 25px;
+}
+
+.about_me_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_me_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.about_me_title p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.about_me_title img {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+.about_me_switching_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_switching_skills button {
+    border: none;
+    background-color: #EFFAFF;
+}
+
+.about_switching_skills button:hover {
+    cursor: pointer;
+}
+
+.about_switching_skills img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.about_switching_skills p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.about_me_info {
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my_name,
+.my_phone,
+.my_birth,
+.my_email {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.name_title,
+.phone_title,
+.birth_title,
+.email_title {
+    display: flex;
+    align-items: center;
+}
+
+.name_title img,
+.phone_title img,
+.birth_title img,
+.email_title img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.name_title p,
+.phone_title p,
+.birth_title p,
+.email_title p {
+    margin: 0;
+}
+
+.name p,
+.phone p,
+.birth p,
+.email p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 20px;
+}

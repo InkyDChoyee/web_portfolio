@@ -1,0 +1,24 @@
+.info {
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.main_pic {
+    height: 65%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #e3e3e3;
+}
+
+.profile_pic {
+    height: 100%;
+    border-radius: 30px;
+}
+
