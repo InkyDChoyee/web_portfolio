@@ -8,7 +8,8 @@
 }
 
 .skills {
-    padding: 25px;
+    padding: 20px;
+    height: 100%;
 }
 
 .skills_top {
@@ -24,7 +25,7 @@
 }
 
 .skills_title p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
@@ -66,9 +67,18 @@
 .db_server_part {
     background-color: #fff;
     border-radius: 30px;
-    padding: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.front_end_part::-webkit-scrollbar,
+.back_end_part::-webkit-scrollbar,
+.tool_part::-webkit-scrollbar,
+.db_server_part::-webkit-scrollbar {
+    display: none;
 }
 
 .db_server_part {
@@ -76,23 +86,25 @@
 }
 
 .server_part {
-    margin-left: 175px;
+    margin-left: 17.5%;
 }
 
 .front_end_part p,
 .back_end_part p,
 .tool_part p,
 .db_server_part p {
-    margin: 0;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: #024486;
 }
 
 .front_end_part img,
 .back_end_part img,
 .tool_part img,
 .db_server_part img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 15px;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 10px;
 }
