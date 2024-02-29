@@ -14,6 +14,10 @@
     color: #024486;
 }
 
+.switching_btn_box {
+    display: flex;
+}
+
 .switching_btn_box button{
     border: none;
     background-color: #fff;
@@ -21,8 +25,23 @@
     font-size: 0.7rem;
     font-weight: 600;
     color: #024486;
+    padding: 3px;
+    transition: border-width 0.5s ease;
+    position: relative;
 }
 
-.switching_btn_box button:hover {
+.switching_btn_box button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-top: 1px solid #024486;
+    transition: width 0.5s ease;
+}
+
+.switching_btn_box button:nth-child(1):hover::before,
+.switching_btn_box button:nth-child(2):hover::before {
     cursor: pointer;
+    width: 100%;
 }

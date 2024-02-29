@@ -1,0 +1,61 @@
+.project_list {
+    height: 90.2%;
+    background-color: #000;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.project_list_box {
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.project_list_box::-webkit-scrollbar {
+    display: none;
+}
+
+.library,
+.petshop,
+.todolist,
+.calculator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.project_preview{
+    width: 60%;
+}
+
+.project_preview img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.project_info{
+    color: #fff;
+}
+
+.project_title,
+.project_with {
+    font-size: 0.7rem;
+}
+
+.project_title span {
+    font-size: 2rem;
+}
+
+.project_with span {
+    font-size: 1rem;
+}
+
+.project_with span:nth-child(3),
+.project_with span:nth-child(5)
+ {
+    padding-left: 25px;
+}

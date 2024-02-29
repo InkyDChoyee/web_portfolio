@@ -1,5 +1,5 @@
 import React from "react";
-import "../resources/css/about.css";
+import "../resources/css/info/about.css";
 import AboutTop from "./AboutTop";
 import MyName from "./MyName";
 import MyPhone from "./MyPhone";

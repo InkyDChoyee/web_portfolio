@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../resources/css/info.css";
+import "../resources/css/info/info.css";
 import MainPhoto from "../components/MainPhoto";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";

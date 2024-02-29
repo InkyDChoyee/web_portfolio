@@ -1,5 +1,5 @@
 import React from "react";
-import "../resources/css/skills.css";
+import "../resources/css/info/skills.css";
 import DbServerPart from "./DbServerPart";
 import ToolPart from "./ToolPart";
 import BackEndPart from "./BackEndPart";

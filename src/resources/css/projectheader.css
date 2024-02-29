@@ -1,0 +1,37 @@
+.project_header {
+    display: flex;
+    justify-content: space-between;
+    height: 4.8%;
+    align-items: center;
+    border-bottom: 3px solid #effaff;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #000;
+}
+
+.project_page_title p {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #effaff;
+}
+
+.project_header_menu {
+    font-size: 0.6rem;
+    color: #fff;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.project_header_menu p span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.sub_menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+}

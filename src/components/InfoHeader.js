@@ -1,5 +1,5 @@
 import React from "react";
-import "../resources/css/infoheader.css";
+import "../resources/css/info/infoheader.css";
 
 const InfoHeader = ({ onAboutMeClick, onSkillsClick }) => {
   return (
