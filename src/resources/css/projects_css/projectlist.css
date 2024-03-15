@@ -1,0 +1,126 @@
+.project_list {
+    height: 90.2%;
+    background-color: #000;
+}
+
+.project_list_box {
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.slide-right {
+    animation: slideRight 1s ease forwards;
+}
+  
+.slide-left {
+    animation: slideLeft 1s ease forwards;
+}
+
+
+@keyframes slideRight {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+  
+@keyframes slideLeft {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+.project_list_box::-webkit-scrollbar {
+    display: none;
+}
+
+.library,
+.petshop,
+.todolist,
+.calculator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    opacity: 0;
+}
+
+.project_preview{
+    width: 60%;
+}
+
+.project_preview img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.project_info{
+    color: #fff;
+}
+
+.project_title,
+.project_with {
+    font-size: 0.7rem;
+}
+
+.project_title span {
+    font-size: 2rem;
+}
+
+.project_with span {
+    font-size: 1rem;
+}
+
+.project_with span:nth-child(3),
+.project_with span:nth-child(5)
+ {
+    padding-left: 25px;
+}
+
+.scroll_arrow {
+    position: absolute;
+    bottom: 100px;
+    right: 25px;
+    opacity: 70%;
+    animation: bounce 0.7s ease infinite;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.scroll_arrow button {
+    background: none;
+    border: none;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+}
+
+.arrow_image {
+    width: 50px;
+}
+

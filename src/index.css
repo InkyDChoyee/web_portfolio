@@ -7,3 +7,19 @@
 .container {
     display: flex;
 }
+
+.home_btn {
+    position: absolute;
+    bottom: 75px;
+    right: 25px;
+}
+
+.home_icon_box {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.home_icon_box img {
+    width: 40px;
+}

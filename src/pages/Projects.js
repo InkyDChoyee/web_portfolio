@@ -1,8 +1,8 @@
 import React from "react";
-import ProjectHeader from "../components/ProjectHeader";
-import "../resources/css/project.css";
-import ProjectFooter from "../components/ProjectFooter";
-import ProjectList from "../components/ProjectList";
+import ProjectHeader from "../components/projects_components/ProjectHeader";
+import ProjectFooter from "../components/projects_components/ProjectFooter";
+import ProjectList from "../components/projects_components/ProjectList";
+import "../resources/css/projects_css/project.css";
 
 const Project = () => {
   return (
