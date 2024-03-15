@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web_portfolio/static/css/main.db5d3a41.css",
-    "main.js": "/web_portfolio/static/js/main.d574e7d0.js",
+    "main.css": "/web_portfolio/static/css/main.592ed940.css",
+    "main.js": "/web_portfolio/static/js/main.fb25dda1.js",
     "static/media/library.PNG": "/web_portfolio/static/media/library.f6f22fea8a77c596a73e.PNG",
     "static/media/petshop.PNG": "/web_portfolio/static/media/petshop.60e15bae400252f48499.PNG",
     "static/media/mybatis_logo.png": "/web_portfolio/static/media/mybatis_logo.e69a8c7879eefb567690.png",
@@ -28,11 +28,11 @@
     "static/media/lombok_logo.png": "/web_portfolio/static/media/lombok_logo.65e63788d71c54eb9963.png",
     "static/media/maven_logo.png": "/web_portfolio/static/media/maven_logo.8217a9b1095f68a829a0.png",
     "index.html": "/web_portfolio/index.html",
-    "main.db5d3a41.css.map": "/web_portfolio/static/css/main.db5d3a41.css.map",
-    "main.d574e7d0.js.map": "/web_portfolio/static/js/main.d574e7d0.js.map"
+    "main.592ed940.css.map": "/web_portfolio/static/css/main.592ed940.css.map",
+    "main.fb25dda1.js.map": "/web_portfolio/static/js/main.fb25dda1.js.map"
   },
   "entrypoints": [
-    "static/css/main.db5d3a41.css",
-    "static/js/main.d574e7d0.js"
+    "static/css/main.592ed940.css",
+    "static/js/main.fb25dda1.js"
   ]
 }
