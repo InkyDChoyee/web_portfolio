@@ -6,12 +6,12 @@ const ProjectHeader = () => {
   return (
     <div className="project_header">
       <div className="project_header_menu">
-        <p>
-          <span>●</span>
-          <span>●</span>
-          <span>●</span>
-        </p>
-        <HeaderSubMenu />
+        <div className="sub_menu_box">
+          <div className="bullet"></div>
+          <div className="bullet"></div>
+          <div className="bullet"></div>
+          <HeaderSubMenu />
+        </div>
       </div>
       <div className="project_page_title">
         {/* <p>GREETINGS</p> */}
