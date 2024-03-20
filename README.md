@@ -55,5 +55,5 @@
 ---
 
 ### 🔗 링크
-* [웹 포트폴리오 페이지](https://inkydchoyee.github.io/web_portfolio/, "web_portfolio") 
+* [웹 포트폴리오 페이지](https://inkydchoyee.github.io/web_portfolio/) 
 ---
