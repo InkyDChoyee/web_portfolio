@@ -1,3 +1,5 @@
+import LinkBox from "../LinkBox";
+
 const ProjectLibrary = () => {
   const projectLibrary = {
     title: "선유책숲",
@@ -23,6 +25,7 @@ const ProjectLibrary = () => {
       </div>
       <div className="project_preview">
         <img src={projectLibrary.src} />
+        <LinkBox projectName="library" />
       </div>
     </div>
   );

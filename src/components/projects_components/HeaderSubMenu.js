@@ -1,16 +1,39 @@
 const HeaderSubMenu = () => {
-  const projects = {
-    선유책숲: "선유책숲",
-    멍뭉꼬냥: "멍뭉꼬냥",
-    ToDoList: "ToDoList",
-    Calculator: "Calculator",
-  };
+  const projects = [
+    {
+      name: "WebPortfolio",
+      key: "webpofol",
+      link: "https://github.com/InkyDChoyee/web_portfolio",
+    },
+    {
+      name: "선유책숲",
+      key: "library",
+      link: "https://github.com/InkyDChoyee/library_homepage",
+    },
+    {
+      name: "멍뭉꼬냥",
+      key: "petshop",
+      link: "https://github.com/InkyDChoyee/onlinePetShop",
+    },
+    {
+      name: "ToDoList",
+      key: "todolist",
+      link: "https://github.com/InkyDChoyee/To_Do_List",
+    },
+    {
+      name: "Calculator",
+      key: "calculator",
+      link: "https://github.com/InkyDChoyee/python_calculator",
+    },
+  ];
+
   return (
     <div className="sub_menu">
-      <button>{projects.선유책숲}</button>
-      <button>{projects.멍뭉꼬냥}</button>
-      <button>{projects.ToDoList}</button>
-      <button>{projects.Calculator}</button>
+      {projects.map((project) => (
+        <a key={project.key} href={project.link} target="_blank">
+          <button>{project.name}</button>
+        </a>
+      ))}
     </div>
   );
 };

@@ -5,10 +5,12 @@ import ProjectLibrary from "./portfolios/ProjectLibrary";
 import ProjectPetShop from "./portfolios/ProjectPetShop";
 import ProjectToDoList from "./portfolios/ProjectToDoList";
 import ScrollEffect from "./ScrollEffect";
+import ProjectWebPortfolio from "./portfolios/ProjectWebPortfolio";
 
 const ProjectList = () => {
   const projectListBoxRef = useRef(null);
   const [projects, setProjects] = useState([
+    <ProjectWebPortfolio />,
     <ProjectLibrary />,
     <ProjectPetShop />,
     <ProjectToDoList />,

@@ -1,3 +1,6 @@
+import React from "react";
+import LinkBox from "../LinkBox";
+
 const ProjectCalculator = () => {
   const projectCalculator = {
     title: "Calculator",
@@ -8,6 +11,7 @@ const ProjectCalculator = () => {
     <div className="calculator">
       <div className="project_preview">
         <img src={projectCalculator.src} alt="calculator" />
+        <LinkBox projectName="calculator" />
       </div>
       <div className="project_info">
         <p className="project_title">

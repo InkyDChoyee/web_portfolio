@@ -1,3 +1,5 @@
+import LinkBox from "../LinkBox";
+
 const ProjectPetShop = () => {
   const projectPetShop = {
     title: "멍뭉꼬냥",
@@ -10,6 +12,7 @@ const ProjectPetShop = () => {
     <div className="petshop">
       <div className="project_preview">
         <img src={projectPetShop.src} />
+        <LinkBox projectName="petshop" />
       </div>
       <div className="project_info">
         <p className="project_title">

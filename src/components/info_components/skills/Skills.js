@@ -29,7 +29,7 @@ const Skills = ({ onAboutMeClick }) => {
       <div className={`skills ${expanded2 ? "expanded" : ""}`}>
         <SkillTop onAboutMeClick={onAboutMeClick} />
         <FrontEndPart />
-        <BackEndPart />
+        {/* <BackEndPart /> */}
         <ToolPart />
         <DbServerPart />
       </div>

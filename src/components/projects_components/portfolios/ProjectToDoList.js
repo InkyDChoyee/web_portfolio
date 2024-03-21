@@ -1,3 +1,5 @@
+import LinkBox from "../LinkBox";
+
 const ProjectToDoList = () => {
   const projectToDoList = {
     title: "To Do List",
@@ -16,6 +18,7 @@ const ProjectToDoList = () => {
       </div>
       <div className="project_preview">
         <img src={projectToDoList.src} alt="calculator" />
+        <LinkBox projectName="todolist" />
       </div>
     </div>
   );
