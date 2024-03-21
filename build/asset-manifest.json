@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/web_portfolio/static/css/main.592ed940.css",
-    "main.js": "/web_portfolio/static/js/main.fb25dda1.js",
+    "main.css": "/web_portfolio/static/css/main.5fb8b954.css",
+    "main.js": "/web_portfolio/static/js/main.df69fe4d.js",
     "static/media/library.PNG": "/web_portfolio/static/media/library.f6f22fea8a77c596a73e.PNG",
     "static/media/petshop.PNG": "/web_portfolio/static/media/petshop.60e15bae400252f48499.PNG",
+    "static/media/webportfolio.PNG": "/web_portfolio/static/media/webportfolio.f307b1d035bd625df6fb.PNG",
     "static/media/mybatis_logo.png": "/web_portfolio/static/media/mybatis_logo.e69a8c7879eefb567690.png",
     "static/media/main_photo2.png": "/web_portfolio/static/media/main_photo2.f7ce24ae43c0dc457004.png",
     "static/media/react_logo.png": "/web_portfolio/static/media/react_logo.5e216e16bf942bf41886.png",
-    "static/media/eclipse_logo.png": "/web_portfolio/static/media/eclipse_logo.a34c19d526309e3b688f.png",
     "static/media/spring_logo.png": "/web_portfolio/static/media/spring_logo.6cbb9957e31c7809ad1e.png",
     "static/media/java_logo.png": "/web_portfolio/static/media/java_logo.4ab2f13394be86292b2e.png",
     "static/media/jsp_logo.png": "/web_portfolio/static/media/jsp_logo.7a75d588a1321496697b.png",
     "static/media/css_logo.png": "/web_portfolio/static/media/css_logo.90dde37a6f94a61140e1.png",
     "static/media/html_logo.png": "/web_portfolio/static/media/html_logo.cf6d271855ece9eb8a40.png",
     "static/media/oracledb_logo.png": "/web_portfolio/static/media/oracledb_logo.bd9a96b2a2c1861cb22c.png",
-    "static/media/sts4_logo.png": "/web_portfolio/static/media/sts4_logo.ed4dfe9f8fcf494ebada.png",
     "static/media/todolist.PNG": "/web_portfolio/static/media/todolist.c31d5b43d500e2edbc13.PNG",
     "static/media/jquery_logo.png": "/web_portfolio/static/media/jquery_logo.e5202d24d6166ced7299.png",
     "static/media/tomcat_logo.png": "/web_portfolio/static/media/tomcat_logo.511cac7a05062dfa2570.png",
@@ -28,11 +27,11 @@
     "static/media/lombok_logo.png": "/web_portfolio/static/media/lombok_logo.65e63788d71c54eb9963.png",
     "static/media/maven_logo.png": "/web_portfolio/static/media/maven_logo.8217a9b1095f68a829a0.png",
     "index.html": "/web_portfolio/index.html",
-    "main.592ed940.css.map": "/web_portfolio/static/css/main.592ed940.css.map",
-    "main.fb25dda1.js.map": "/web_portfolio/static/js/main.fb25dda1.js.map"
+    "main.5fb8b954.css.map": "/web_portfolio/static/css/main.5fb8b954.css.map",
+    "main.df69fe4d.js.map": "/web_portfolio/static/js/main.df69fe4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.592ed940.css",
-    "static/js/main.fb25dda1.js"
+    "static/css/main.5fb8b954.css",
+    "static/js/main.df69fe4d.js"
   ]
 }
