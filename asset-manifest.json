@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web_portfolio/static/css/main.5fb8b954.css",
-    "main.js": "/web_portfolio/static/js/main.df69fe4d.js",
+    "main.css": "/web_portfolio/static/css/main.cc08984d.css",
+    "main.js": "/web_portfolio/static/js/main.17468d38.js",
     "static/media/library.PNG": "/web_portfolio/static/media/library.f6f22fea8a77c596a73e.PNG",
     "static/media/petshop.PNG": "/web_portfolio/static/media/petshop.60e15bae400252f48499.PNG",
     "static/media/webportfolio.PNG": "/web_portfolio/static/media/webportfolio.f307b1d035bd625df6fb.PNG",
@@ -27,11 +27,11 @@
     "static/media/lombok_logo.png": "/web_portfolio/static/media/lombok_logo.65e63788d71c54eb9963.png",
     "static/media/maven_logo.png": "/web_portfolio/static/media/maven_logo.8217a9b1095f68a829a0.png",
     "index.html": "/web_portfolio/index.html",
-    "main.5fb8b954.css.map": "/web_portfolio/static/css/main.5fb8b954.css.map",
-    "main.df69fe4d.js.map": "/web_portfolio/static/js/main.df69fe4d.js.map"
+    "main.cc08984d.css.map": "/web_portfolio/static/css/main.cc08984d.css.map",
+    "main.17468d38.js.map": "/web_portfolio/static/js/main.17468d38.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fb8b954.css",
-    "static/js/main.df69fe4d.js"
+    "static/css/main.cc08984d.css",
+    "static/js/main.17468d38.js"
   ]
 }
