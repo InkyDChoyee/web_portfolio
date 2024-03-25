@@ -1,7 +1,9 @@
+// ProjectFooter.js
 import React from "react";
 import "../../resources/css/projects_css/projectfooter.css";
+import ScrollEffectBottom from "./ScrollEffectBottom";
 
-const ProjectFooter = () => {
+const ProjectFooter = ({ listBoxRef }) => {
   const copyright = "Copyrightⓒ 2024. Choyee. All right reserved.";
   const bottomLink = [
     {
@@ -17,6 +19,7 @@ const ProjectFooter = () => {
   ];
   return (
     <div className="project_footer">
+      <ScrollEffectBottom listBoxRef={listBoxRef} />
       <p>{copyright}</p>
       <div className="footer_links_box">
         {bottomLink.map((link) => (

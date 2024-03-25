@@ -1,3 +1,4 @@
+// ProjectList.js
 import React, { useRef, useEffect, useState } from "react";
 import "../../resources/css/projects_css/projectlist.css";
 import ProjectCalculator from "./portfolios/ProjectCalculator";
@@ -6,6 +7,7 @@ import ProjectPetShop from "./portfolios/ProjectPetShop";
 import ProjectToDoList from "./portfolios/ProjectToDoList";
 import ScrollEffect from "./ScrollEffect";
 import ProjectWebPortfolio from "./portfolios/ProjectWebPortfolio";
+import ProjectFooter from "./ProjectFooter"; // ProjectFooter 컴포넌트를 import 합니다.
 
 const ProjectList = () => {
   const projectListBoxRef = useRef(null);
@@ -38,15 +40,10 @@ const ProjectList = () => {
 
     const listBox = projectListBoxRef.current;
     listBox.addEventListener("scroll", handleScroll);
-    return () => {
-      listBox.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
-  useEffect(() => {
     const initialDelay = 2700;
     const delayIncrement = 700;
-    const projectElements = Array.from(projectListBoxRef.current.children);
+    const projectElements = Array.from(listBox.children);
 
     projectElements.forEach((project, index) => {
       const delay = initialDelay + index * delayIncrement;
@@ -54,14 +51,24 @@ const ProjectList = () => {
         project.classList.add(index % 2 === 0 ? "slide-right" : "slide-left");
       }, delay);
     });
+
+    return () => {
+      listBox.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
     <div className="project_list">
-      <div className="project_list_box" ref={projectListBoxRef}>
+      <div
+        className="project_list_box"
+        ref={projectListBoxRef}
+        onScroll={() => {}} // handleScroll 함수를 여기서 호출하지 않습니다.
+      >
         {projects}
       </div>
       <ScrollEffect listBoxRef={projectListBoxRef} />
+      <ProjectFooter listBoxRef={projectListBoxRef} />{" "}
+      {/* listBoxRef를 전달합니다. */}
     </div>
   );
 };

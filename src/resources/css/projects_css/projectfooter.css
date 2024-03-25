@@ -7,6 +7,7 @@
     padding-right: 50px;
     padding-left: 50px;
     background-color: #000;
+    position: relative;
 }
 
 .project_footer p {
@@ -34,4 +35,14 @@
 .footer_links_box a img{
     width: 25px;
     border-radius: 100%;
+}
+
+.scroll_effect_bottom {
+    background-color: #effaff;
+    height: 5px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    transition: width 0.2s ease;
+    z-index: 2;
 }
