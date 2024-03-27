@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const ScrollEffectBottom = ({ listBoxRef }) => {
-  const [width, setWidth] = useState(0); // 초기값을 숫자로 변경
+  const [width, setWidth] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,7 +15,7 @@ const ScrollEffectBottom = ({ listBoxRef }) => {
       const scrollPercentage =
         (scrollTop / (scrollHeight - clientHeight)) * 100;
 
-      setWidth(scrollPercentage); // % 단위로 설정하지 않음
+      setWidth(scrollPercentage);
     };
 
     if (listBoxRef.current) {

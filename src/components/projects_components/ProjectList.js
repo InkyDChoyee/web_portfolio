@@ -62,13 +62,12 @@ const ProjectList = () => {
       <div
         className="project_list_box"
         ref={projectListBoxRef}
-        onScroll={() => {}} // handleScroll 함수를 여기서 호출하지 않습니다.
+        onScroll={() => {}}
       >
         {projects}
       </div>
       <ScrollEffect listBoxRef={projectListBoxRef} />
       <ProjectFooter listBoxRef={projectListBoxRef} />{" "}
-      {/* listBoxRef를 전달합니다. */}
     </div>
   );
 };
